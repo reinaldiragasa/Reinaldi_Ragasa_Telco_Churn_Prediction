@@ -2,5 +2,5 @@ Streamlit
 Joblib  
 numpy  
 imblearn  
-Category_encodes  
+category_encodes  
 lightgbm  
