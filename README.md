@@ -1,8 +1,6 @@
-# Churn_Streamlit2
+# Telco Customer Churn Prediction: A Data-Driven Approach to Retention
 
-## Telco Customer Churn Prediction: A Data-Driven Approach to Retention
-
-### Business Understanding
+## Business Understanding
 
 1. In the telecom industry, customer churn isn’t just a metric—it’s a financial tsunami.
 2. A 20% churn rate in a 1M-subscriber base could cost $120M annually (Tridens, 2025).
@@ -10,13 +8,13 @@
 4. Even a 0.01% reduction in churn can save $6.6M/year for a major carrier (UST, 2025).
 5. 5. AI-driven churn prediction works: T-Mobile slashed churn by 20% using AI-powered retention strategies
 
-### Project Goal
+## Project Goal
 Predict which customers are likely to churn using machine learning, enabling targeted retention efforts to:
 - Save revenue by preventing high-risk churn.
 - Optimize marketing spend by focusing on customers who need intervention.
 - Improve customer lifetime value through data-driven decisions.
 
-### Key Insights & Impact
+## Key Insights & Impact
 
 1. **Model Performance & Cost Savings**
 - **Best Model: LightGBM (LGBM)** with **F2-score optimization** (recall-focused) achieved:
@@ -39,7 +37,7 @@ Predict which customers are likely to churn using machine learning, enabling tar
 - Prioritizes **recall over precision** (missing a churner costs **$1,150**, false alarm costs **$50**).
 - **LGBM** at **0.208** threshold optimized this trade-off.
 
-### Model Tested
+## Model Tested
 
 1. **LightGBM:**
 - **Low total loss:** $33,600
